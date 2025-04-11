@@ -34,6 +34,18 @@ body{
     margin-left: 50px;
 }
 
+.fa-google{
+    color: black;
+}
+
+.fa-github{
+    color: black;
+}
+
+.fa-linkedin{
+    color: black;
+}
+
 .social-nav{
     font-size: 25px;
     float: right;
