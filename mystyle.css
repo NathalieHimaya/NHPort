@@ -11,11 +11,12 @@
 }
 
 header{
+    margin-block: 20px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    text-align: center;
 }
 
 body{
@@ -29,6 +30,8 @@ body{
     font-size: 25px;
     font-weight: 10px;
     color: black;
+    float: left;
+    margin-left: 50px;
 }
 
 .social-nav{
@@ -45,7 +48,63 @@ h1{
     font-family: 'Caprasimo';
     color: #0A284C;
     text-align: center;
-    padding: 350px;
     font-size: 100px;
     font-weight: 100;
+    margin-top: 350px;
+    margin-bottom: 40px;
+}
+
+.label-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20px;
+}
+
+.labels{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.labels .L1{
+    border-style: solid;
+    border-color: #F6C2AC;
+    background-color: #F6C2AC;
+    width:flex;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
+.labels .L2{
+    border-style: solid;
+    border-color: #F6C2AC;
+    width:flex;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
+.labels .L3{
+    border-style: solid;
+    border-color: #F6C2AC;
+    background-color: #F6C2AC;
+    width:flex;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
+.labels .L4{
+    border-style: solid;
+    border-color: #F6C2AC;
+    width:flex;
+    border-radius: 25px;
+    padding: 10px;
+
 }
