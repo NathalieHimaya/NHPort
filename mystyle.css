@@ -28,7 +28,7 @@ body{
 
 .logo{
     font-size: 25px;
-    font-weight: 10px;
+    font-weight: 15px;
     color: black;
     float: left;
     margin-left: 50px;
@@ -53,6 +53,7 @@ body{
     position: 0 15px;
     color: black;
     margin-left: 15px;
+    margin-right: 40px;
 }
 
 
